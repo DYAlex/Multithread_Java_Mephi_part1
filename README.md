@@ -98,7 +98,7 @@
 
 ### Базовое использование
 ```java
-CustomThreadPool pool = new CustomThreadPool(
+MyPool pool = new MyPool(
     2,  // corePoolSize
     4,  // maxPoolSize
     5,  // keepAliveTime
