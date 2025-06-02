@@ -78,7 +78,7 @@ public class MyPoolDemo {
     private static void waitForTasks(int seconds) {
         try {
             logger.info("Waiting for " + seconds + " seconds...");
-            Thread.sleep(seconds * 1000);
+            Thread.sleep(seconds * 1000L);
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
         }
